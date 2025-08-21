@@ -1,0 +1,26 @@
+.app{
+    width:50%;
+    margin-left:25%;
+    margin-top:20vh;
+    background-color:black;
+    padding:20px;
+    border-radius:2em;
+      transition: all 0.3s ease;
+}
+.log-out{
+    padding:10px;
+    background-color:hsl(0, 100%, 80%);
+    border-radius:10px;
+    font-weight:700;
+}
+.log-out:hover{
+     background-color:hsl(0, 100%, 40%);
+}
+@media (max-width: 600px) {
+ 
+ .app{
+ width:50%;
+ margin-left:5%;
+ }  
+
+}
